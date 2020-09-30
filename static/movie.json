@@ -1,0 +1,287 @@
+{
+    "coming": [],
+    "movieIds": [
+        1210778,
+        346210,
+        1297973,
+        1217123,
+        1297911,
+        1219866,
+        1277457,
+        1247287,
+        1262682,
+        489894,
+        2212,
+        1230199,
+        1283967,
+        1307132,
+        1207303,
+        1215300,
+        1215767,
+        1284572,
+        416,
+        1299144,
+        1218273,
+        1238922,
+        3606,
+        1337937,
+        78341,
+        1301478,
+        1218159,
+        1263349,
+        1243792,
+        338059,
+        246286,
+        345810,
+        1203109,
+        1280654,
+        1301196,
+        79232
+    ],
+    "stid": "576591972453269000",
+    "stids": [
+        {
+            "movieId": 1210778,
+            "stid": "576591972453269000_a1210778_c0"
+        },
+        {
+            "movieId": 346210,
+            "stid": "576591972453269000_a346210_c1"
+        },
+        {
+            "movieId": 1297973,
+            "stid": "576591972453269000_a1297973_c2"
+        },
+        {
+            "movieId": 1217123,
+            "stid": "576591972453269000_a1217123_c3"
+        },
+        {
+            "movieId": 1297911,
+            "stid": "576591972453269000_a1297911_c4"
+        },
+        {
+            "movieId": 1219866,
+            "stid": "576591972453269000_a1219866_c5"
+        },
+        {
+            "movieId": 1277457,
+            "stid": "576591972453269000_a1277457_c6"
+        },
+        {
+            "movieId": 1247287,
+            "stid": "576591972453269000_a1247287_c7"
+        },
+        {
+            "movieId": 1262682,
+            "stid": "576591972453269000_a1262682_c8"
+        },
+        {
+            "movieId": 489894,
+            "stid": "576591972453269000_a489894_c9"
+        },
+        {
+            "movieId": 2212,
+            "stid": "576591972453269000_a2212_c10"
+        },
+        {
+            "movieId": 1230199,
+            "stid": "576591972453269000_a1230199_c11"
+        }
+    ],
+    "total": 36,
+    "movieList": [
+        {
+            "id": 1210778,
+            "haspromotionTag": false,
+            "img": "http://p1.meituan.net/w.h/moviemachine/ca9d0c0268a940d73d62c004d57b957a5241814.jpg",
+            "version": "v3d imax",
+            "nm": "花木兰",
+            "preShow": false,
+            "sc": 7.5,
+            "globalReleased": true,
+            "wish": 216004,
+            "star": "刘亦菲,甄子丹,杰森·斯考特·李",
+            "rt": "2020-09-11",
+            "showInfo": "今天161家影院放映1560场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 346210,
+            "haspromotionTag": false,
+            "img": "http://p1.meituan.net/w.h/moviemachine/a448ca6a5f4dafb88067722303ca0cfd96002.jpg",
+            "version": "v2d imax",
+            "nm": "八佰",
+            "preShow": false,
+            "sc": 9.2,
+            "globalReleased": true,
+            "wish": 518898,
+            "star": "王千源,张译,姜武",
+            "rt": "2020-08-21",
+            "showInfo": "今天163家影院放映1230场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 1297973,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/moviemachine/40d1e5ac176f1e9258da10a3222dbff7952117.png",
+            "version": "v2d imax",
+            "nm": "信条",
+            "preShow": false,
+            "sc": 8.3,
+            "globalReleased": true,
+            "wish": 61210,
+            "star": "约翰·大卫·华盛顿,罗伯特·帕丁森,伊丽莎白·德比茨基",
+            "rt": "2020-09-04",
+            "showInfo": "今天159家影院放映1042场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 1217123,
+            "haspromotionTag": false,
+            "img": "http://p1.meituan.net/w.h/movie/988ab3d3a50f51f31d090e84da88d5ae3461853.jpg",
+            "version": "v2d imax",
+            "nm": "夺冠",
+            "preShow": false,
+            "sc": 0,
+            "globalReleased": false,
+            "wish": 485888,
+            "star": "巩俐,黄渤,吴刚",
+            "rt": "2020-09-25",
+            "showInfo": "2020-09-25 下周五上映",
+            "showst": 4,
+            "wishst": 0
+        },
+        {
+            "id": 1297911,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/moviemachine/94700ee3718b3c8eff9dd69676bdbaa31034312.jpg",
+            "version": "",
+            "nm": "我的女友是机器人",
+            "preShow": false,
+            "sc": 7.1,
+            "globalReleased": true,
+            "wish": 40666,
+            "star": "辛芷蕾,包贝尔,魏翔",
+            "rt": "2020-09-11",
+            "showInfo": "今天128家影院放映349场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 1219866,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/4027ab12e2e618d627f761e6433d3c291885261.jpg",
+            "version": "",
+            "nm": "通往春天的列车",
+            "preShow": false,
+            "sc": 0,
+            "globalReleased": false,
+            "wish": 20195,
+            "star": "李岷城,任素汐,何巍然",
+            "rt": "2020-09-17",
+            "showInfo": "2020-09-17 本周四上映",
+            "showst": 4,
+            "wishst": 0
+        },
+        {
+            "id": 1277457,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/374f7addeb978a634b0f5e8665f0bce4357962.jpg",
+            "version": "",
+            "nm": "麦路人",
+            "preShow": false,
+            "sc": 0,
+            "globalReleased": false,
+            "wish": 12727,
+            "star": "郭富城,杨千嬅,万梓良",
+            "rt": "2020-09-17",
+            "showInfo": "2020-09-17 本周四上映",
+            "showst": 4,
+            "wishst": 0
+        },
+        {
+            "id": 1247287,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/739ab80ef2dee3ec234b6ba75baf90e01951569.jpg",
+            "version": "",
+            "nm": "死无对证",
+            "preShow": false,
+            "sc": 0,
+            "globalReleased": false,
+            "wish": 9459,
+            "star": "里卡多·斯卡马乔,米丽娅姆·莱昂内,法布里齐奥·本蒂沃利奥",
+            "rt": "2020-09-18",
+            "showInfo": "2020-09-18 本周五上映",
+            "showst": 4,
+            "wishst": 0
+        },
+        {
+            "id": 1262682,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/e9472f71bfde600cbdcfd87b714f96021574748.jpg",
+            "version": "",
+            "nm": "辉夜大小姐想让我告白",
+            "preShow": false,
+            "sc": 8.1,
+            "globalReleased": true,
+            "wish": 23669,
+            "star": "平野紫耀,桥本环奈,佐野勇斗",
+            "rt": "2020-09-11",
+            "showInfo": "今天56家影院放映97场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 489894,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/moviemachine/7e6118993dbf0f304ac1dad4667fddda207318.jpg",
+            "version": "",
+            "nm": "我在时间尽头等你",
+            "preShow": false,
+            "sc": 7.9,
+            "globalReleased": true,
+            "wish": 642546,
+            "star": "李鸿其,李一桐,范伟",
+            "rt": "2020-08-25",
+            "showInfo": "今天49家影院放映93场",
+            "showst": 3,
+            "wishst": 0
+        },
+        {
+            "id": 2212,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/f18ed2234e4f99a5fb78e4c367fbab6b4044151.jpg",
+            "version": "",
+            "nm": "菊次郎的夏天",
+            "preShow": false,
+            "sc": 0,
+            "globalReleased": false,
+            "wish": 14144,
+            "star": "北野武,关口雄介,岸本加世子",
+            "rt": "2020-09-25",
+            "showInfo": "2020-09-25 下周五上映",
+            "showst": 4,
+            "wishst": 0
+        },
+        {
+            "id": 1230199,
+            "haspromotionTag": false,
+            "img": "http://p0.meituan.net/w.h/movie/cdb164c203fc0c2465278ddd165e91c84503798.jpg",
+            "version": "",
+            "nm": "小妇人",
+            "preShow": false,
+            "sc": 8.7,
+            "globalReleased": true,
+            "wish": 134084,
+            "star": "西尔莎·罗南,艾玛·沃特森,佛罗伦斯·珀",
+            "rt": "2020-08-25",
+            "showInfo": "今天25家影院放映40场",
+            "showst": 3,
+            "wishst": 0
+        }
+    ]
+}
