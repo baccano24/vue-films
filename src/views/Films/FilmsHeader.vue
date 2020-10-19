@@ -16,7 +16,8 @@ export default {
 <style lang="scss" scoped>
 ul{
   width: 100%;
-  background: pink;
+  background: #ff0;
+  overflow: hidden;
   li{
     width: 50%;
     text-align: center;

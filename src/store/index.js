@@ -8,7 +8,8 @@ export default new Vuex.Store({
     // 自定义的共享状态
     isTabbarShow:true,
     comingList:[],
-    loadding:false
+    loadding:false,
+    cityName:'北京'
   },
   mutations: {//修改状态
     HideTabbar(state,data){
@@ -22,6 +23,9 @@ export default new Vuex.Store({
     },
     showloadding(state, load) {
       state.loadding = load
+    },
+    changeCity(state,city){
+      state.cityName=city
     }
 
   },

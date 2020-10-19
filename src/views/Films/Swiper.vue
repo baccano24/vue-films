@@ -34,9 +34,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.filmsSwiper {
-  // width: 100%;
-  // height: 300px;
+.swiper-container {
+  margin-bottom: -4px;
   img {
     margin: 0 auto;
   }

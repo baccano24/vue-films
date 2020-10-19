@@ -1,13 +1,13 @@
 <template>
   <div>
-    <v-touch v-on:swipeleft="SwipeLeft">
-      <div style="background:red;height:100px">center</div>
+    <v-touch v-on:swipeleft="SwipeLeft" v-on:swiperight="SwipeRight">
+      <div style="background: red; height: 100px">center</div>
     </v-touch>
+
   </div>
 </template>
 
 <script>
-
 export default {
   name: "Center",
   beforeRouteEnter(to, from, next) {
@@ -22,9 +22,17 @@ export default {
     }
   },
   methods: {
-    SwipeLeft(){
-      console.log("向左滑")
-    }
+    SwipeLeft() {
+      console.log("向左滑");
+      this.setCookie('setCookie',"13124444444",365);
+    },
+    SwipeRight() {
+      console.log("向右滑");
+      this.delCookie('setCookie');
+    },
+  },
+  computed: {
+
   },
 };
 </script>

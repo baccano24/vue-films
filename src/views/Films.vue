@@ -1,5 +1,6 @@
 <template>
   <div>
+    <router-link to="/city"><div class="cityName" >{{cityName}}</div></router-link>
     <swiper :key="picList.length" ref="mySwiper">
       <div class="swiper-slide" v-for="data in picList" :key="data.id">
         <img :src="data.url" />
@@ -15,7 +16,7 @@ import Vue from "vue";
 import axios from "axios";
 import swiper from "@/views/Films/Swiper";
 import FilmsHeader from "@/views/Films/FilmsHeader";
-
+import { mapState } from "vuex";
 export default {
   name: "Films",
   data() {
@@ -48,6 +49,9 @@ export default {
       }
     },
   },
+  computed:{
+    ...mapState(["cityName"]),
+  },
   components: {
     swiper,
     FilmsHeader,
@@ -64,5 +68,12 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.cityName{
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  color: #fff;
+  z-index: 99;
 }
 </style>

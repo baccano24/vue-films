@@ -2,7 +2,7 @@
   <div>
     <mt-index-list>
       <mt-index-section :index="data.index" v-for="data in dataList" :key="data.index">
-        <div v-for="item in data.list" :key="item.cityId" @click="handleClick(item.cityId)">
+        <div v-for="item in data.list" :key="item.cityId" @click="handleClick(item.cityId,item.name)">
           <mt-cell :title="item.name"></mt-cell>
         </div>
       </mt-index-section>
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import {mapMutations} from 'vuex'
 import axios from "axios";
 export default {
   name: "City",
@@ -55,11 +56,15 @@ export default {
       // console.log(newList)
       return newList
     },
-    handleClick(id){
+    handleClick(id,city){
       // console.log(data)
       localStorage.setItem("cityId",id)
-      this.$router.push(`/cinema`)
-    }
+      this.$router.push(`/`)
+
+      this.changeCity(city)
+    },
+    ...mapMutations(["changeCity"])
+
   },
 };
 </script>

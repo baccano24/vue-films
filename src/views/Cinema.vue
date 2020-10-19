@@ -33,7 +33,6 @@ export default {
         "X-Host": "mall.film-ticket.cinema.list",
       },
     }).then((res) => {
-      // console.log(res.data.data.cinemas);
       this.cinemaList = res.data.data.cinemas;
 
       this.$nextTick(()=>{
